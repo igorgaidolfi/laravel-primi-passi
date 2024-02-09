@@ -9,5 +9,14 @@
     </head>
     <body>
         <h1 class="text-center">Hello World!!!!</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        {{$home}} {{$h_points}} - {{$away}} {{$a_points}}
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
