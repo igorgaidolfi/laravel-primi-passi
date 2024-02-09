@@ -12,8 +12,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div>
-                        {{$home}} {{$h_points}} - {{$away}} {{$a_points}}
+                    <div class="d-flex justify-content-between mt-2">
+                        <a href="/" class="btn btn-success">Home</a>
+                        <a href="/learn" class="btn btn-primary">Impare</a>
+                        <a href="/teach" class="btn btn-danger">Insegnare</a>
+                        <a href="/projects" class="btn btn-warning">Progetti</a>
+                        <a href="/stats" class="btn btn-secondary">Statistiche</a>
+                        <a href="/help" class="btn btn-info">Aiutaci</a>
+                        <a href="/about" class="btn btn-dark">About</a>
+                        <a href="/login" class="btn btn-link">Login</a>
                     </div>
                 </div>
             </div>
